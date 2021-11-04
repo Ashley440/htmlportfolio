@@ -1,3 +1,3 @@
 <?php
-  include_only('homepage.html');
+  include_only("homepage.html");
 ?>
