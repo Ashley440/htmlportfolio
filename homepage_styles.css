@@ -1,0 +1,153 @@
+
+
+/*Code for the fade effect*/
+body{    
+    background-color:black;
+    font-family: 'Lucida Console';
+    background-size: cover;
+}
+
+
+/*Emblem styles*/
+#emblems img{
+    height:0.8%;
+    justify-content: center;
+    border-radius: 50%;
+    padding-left: 1%;
+    padding-right:1%;
+}
+
+/*<h3>Asalinto Ashley Simayile</h3>*/
+#myname h5{
+    color: ghostwhite;
+    font-family:'Lucida Console';
+    
+}
+#display{
+    color:ghostwhite;
+    font-size: 1.3em;
+    font-family: 'Lucida Console';
+    padding:2%;
+}
+#navbar{
+    color:ghostwhite;
+    text-align: center;
+    
+}
+#nav a{
+    color:ghostwhite;
+    background-color: ghostwhite;
+    border-radius: 1em;
+    padding-left: 1%;
+    padding-right:1%;
+    margin-top: 5%;
+    font-size: 1.3em;
+}
+#nav a:hover{
+    transition: 0.5s;
+    background-color: black;
+    border-radius: 2em;
+}
+/*<h1>Software Engineer - BSc Graduate - ML Researcher</h1>*/
+#intro h1{
+    color:goldenrod;
+    text-align: center;
+    font-family: 'Lucida Console';
+    
+}
+
+/*Styling the profile image*/
+
+
+.columns{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1% 99%;
+    
+}
+.columnsFour {
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    color: ghostwhite;
+    font-size: 0.8em;
+    font-family: 'Lucida Console';
+    text-align: center;
+    padding: 1em;
+}
+.columnFour{
+    border-style:solid;
+    border-color:goldenrod;
+    border-width:0.05em;
+    border-radius:2em;
+
+}
+.columnFour h1{
+    text-align:center;
+}
+.columnFour {
+    text-align: left;
+    padding: 0.3em;
+}
+@media screen and (max-width: 745px) {
+    #intro h1{
+        font-size: 1em;
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+    #nav a{
+        margin-top:10%;
+        font-size: 0.7em;
+    }
+    #emblems img{
+        height:0.4%;
+    }
+    #myname{
+        font-size: 0.3em;
+    }
+    #display{
+        font-size: 0.8em;
+    }
+    #im{
+        margin-top: 20%;
+        margin-bottom: 15%;
+        transition:0.5s;
+        height: 50px;
+    }
+    .columnsFour{
+        grid-template-columns: 50% 50%;
+    }
+    #display{
+        grid-template-columns: 50% 50%;
+    }
+}
+/*
+@media screen and (max-width: 1160px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .columns{
+        display:contents;
+        text-align:center;
+    }
+    .columnsFour {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .languagesP {
+        display: contents;
+    }
+    .home {
+        margin-left: auto;
+    }
+    .centrical {
+        margin-bottom: 100%;
+    } 
+   
+}
+*/
