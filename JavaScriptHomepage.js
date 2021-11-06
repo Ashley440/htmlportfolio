@@ -163,7 +163,7 @@ function resume(){
     //left.style.backgroundImage="url('res/proj.jpg')";
     left.style.backgroundRepeat="no-repeat";
     left.innerHTML=`<h1 style="color:goldenrod;text-align:center">Updated Resume</h1>
-    <iframe src="res/resume.pdf" height="30%" width="90%" title="Dynamic Search Feature"></iframe>
+    <object data="res/resume.pdf" type="application/pdf" height="30%" width="90%" title="Dynamic Search Feature"></object>
     `
 }
 
